@@ -35,7 +35,7 @@
 
 
 .holographic-card h2 {
-  color: #0ff;
+  color: #fe3f9e;
   font-size: 2rem;
   position: relative;
   z-index: 2;
@@ -61,8 +61,13 @@
 
 .holographic-card:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+  box-shadow: 0 0 20px #fe3f9e;
 }
+
+.holographic-card .promo:hover {
+  transform: scale(1.20);
+}
+
 
 .holographic-card:hover::before {
   opacity: 1;
